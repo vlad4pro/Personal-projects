@@ -1,5 +1,10 @@
 package md.vlad.number.spelling;
 
+
+//Add new commit for Demo test.
+
+
+
 public class Main {
 	// variable to hold string representation of number
 	static String unitsArray[] = { "zero", "unu", "doi", "trei", "patru", "cinci", "sase", "sapte", "opt", "noua",
@@ -12,6 +17,7 @@ public class Main {
 		long start = System.currentTimeMillis();
 		for (long l = 999_000_999; l < 1_000_000_001L; l++) {
 			System.out.println(SpellingNumbers.spell(l));
+
 		}
 		long finish = System.currentTimeMillis();
 		long timeElapsed = finish - start;
